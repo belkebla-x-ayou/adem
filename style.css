@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-image: url(velvet-rose-8k-rose-7680x4320-22379.jpg);
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(velvet-rose-8k-rose-7680x4320-22379.jpg),
+    align-items: center;
+    text-align: center;
+}
+
+
+.form form {
+    background-color:  #e0e5ec;
+    border-radius: 15px;
+    padding: 3rem;
+    box-shadow: 10px 10px 20px #a3b1c6,        
+                -10px -10px 20px #ffffff;
+    display: flex;         
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+}
+
+.form h1 {
+    color: rgb(85, 85, 85);
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+.form input {
+    border: none;
+    padding: .9rem 1rem ;
+    color: rgb(85, 85, 85);
+    margin-bottom: 1.5rem;
+    outline: none;
+    width: 18rem;
+    font-size: 15px;
+    border-radius: 10px;
+    background: transparent;
+    box-shadow: 10px 10px 20px #a3b1c6,        
+                -10px -10px 20px #ffffff;
+    transition: all .3px ease;
+}
+
+.form input:focus {
+    box-shadow: inset 5px 5px 10px #a3b1c6,        
+                inset -7px -7px 20px #ffffff;
+}
+
+.form button {
+    border: none;
+    padding: .9rem 1rem ;
+    color: rgb(85, 85, 85);
+    margin-top: 10px;
+    outline: none;
+    width: 9rem;
+    font-size: 18px;
+    border-radius: 10px;
+    background: transparent;
+    box-shadow: 10px 10px 20px #a3b1c6,        
+                -10px -10px 20px #ffffff;
+    transition: all .3px ease;
+}
+
+.form button:active {
+    box-shadow: inset 5px 5px 10px #a3b1c6,        
+                inset -7px -7px 20px #ffffff;
+}
+
+.form button:hover {
+    color: black;
+    transform: all 3px infinite ;
+}
+
+h1:hover {
+    color: #00ffd97e;
+    text-shadow: 7px 7px 19px rgb(2, 38, 83);
+    transition: all 3s;
+}
+
+.ayou {
+    color: #a3b1c6;
+}
+
+.ayou:hover {
+    color: black;
+    text-shadow: 7px 7px 7px black;
+    transition: all 2s;
+}
+
+h2 {
+    color: rgb(0, 37, 105);
+}
+
+h2:hover {
+    color: #00ffd97e;
+    text-shadow: 7px 7px 19px rgb(2, 38, 83);
+    transition: all 3s;
+}

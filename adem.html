@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    transition: all 1s;
+}
+
+body {
+    background-color: #000000f6;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*hr{
+        width: 100%;
+        height: 1px;
+        background-color: #eee;
+        border: none;
+        margin: 2rem 0;
+    }*/
+    transition: all 1s;
+}
+
+h1{
+    color: #eeee;
+    font-size: oblique;
+    transition: all 1s;
+}
+
+h2{
+    color: #eeee;
+    font-size: oblique;
+    transition: all 1s;
+}
+
+h3{
+    color: #eeee;
+    font-size: oblique;
+    transition: all 1s;
+}
+
+h4{
+    color: #eeee;
+    font-size: oblique;
+    transition: all 1s;
+}
+
+h5{
+    color: #eeee;
+    font-size: oblique;
+    transition: all 1s;
+}
+
+h6{
+    color: #eeee;
+    font-size: oblique;
+    transition: all 1s;
+}
+
+p {
+    color: #eeee;
+    font-size: oblique;
+    transition: all 1s;
+}
+
+
+header {
+    margin: 2rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem auto;
+    max-width: 1200px;
+    transition: all 1s;
+}
+
+
+.navigation ul{
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+    transition: all 1s;
+}
+
+.navigation li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    color: #eeeeee;
+    text-decoration: none;
+    right: 3rem;
+    transition: all 1s;
+}
+
+.navigation li:hover{
+    text-shadow: 3px 3px 7px #00adb5;
+    transition: all 1s ease;
+    color: #00adb5;
+    transform: scale(1.6);
+}
+
+.navigation a{
+    text-decoration: none;
+    color: #eeeeee;
+    transition: all 1s;
+}
+
+.navigation a:hover{
+    text-decoration: none;
+    color: #000000;
+    text-shadow: 5px 2px 3px #00adb5;
+    transition: all 1s ease;
+}
+
+.div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(255, 0, 0, 0.72);
+    transition: all 1s;
+}
+
+.div:hover{
+    width: 27rem;
+    color: white;
+    transition: all 1s;
+}
+
+
+.colorw {
+    width: 100%;
+    height: 10px;
+    background-color: white;
+    transition: all 1s;
+}
+
+.colorw:hover {
+    width: 100%;
+    height: 20px;
+    background-color: rgb(0, 162, 255);
+    transition: all 1s ;
+    opacity: 1%;
+}
+
+.ccc {
+  position: relative;
+  animation: mymove .99s infinite;
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 420px;}
+}
+
+.bbb {
+    position: relative;
+    animation: mymoveb .99s infinite
+}
+
+@keyframes mymoveb {
+  from {left: 0px;}
+  to {left: 430px;}
+}
+
+.aaa {
+    opacity: 25%;
+    padding: 1px;
+    transition: all 1s;
+}
+
+.aaa:hover {
+    opacity: 100%;
+    transition: all 1s;
+}
+</style>
+<body>
+    <div class="colorw"></div>
+    <div class="div">
+        <header>
+        <nav class="navigation">
+            <ul>
+            <li><a href="#aboutMe">-de moi-</a></li>
+            <li><a href="#demoi">-my proge-</a></li>
+            <li><a href="#contact">-Mes contact-</a></li>
+            </ul>
+        </nav>
+    </header>
+    </div>
+    <div class="colorw"></div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <section class="aboutME" id="aboutMe">
+        <h1>---------------==le site de bekebla adem==---------------
+            <hr width="530px" color="white" class="aaa">
+            <br>
+            <hr width="100px" class="bbb" color="#00adb5">
+            <br>
+            -je suis adem belkebla le youtuber belgaming kabyle- 
+            <hr width="539px" color="white" class="aaa">
+            <br>
+            <hr class="ccc" width="100px" color="#e8r8d">
+        </h1>
+    </section>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <section class="demoi" id="demoi">
+        <h1 align="center">mes projets
+            <br>
+            je suis un youtuber le none de ma chenne de youtube s'appel belgaming kabyle
+        </h1>
+    </section>
+</body>
+</html>
